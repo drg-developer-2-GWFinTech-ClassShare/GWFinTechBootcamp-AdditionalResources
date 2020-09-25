@@ -3,6 +3,7 @@
 ## Class Admin Resources
 
 [Templates for Download | The George Washington University](https://creativeservices.gwu.edu/templates-download)
+
 [Bootcamp Spot Dashboard](https://bootcampspot.com/)
 
 ## Repositories
