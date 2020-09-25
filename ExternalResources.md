@@ -1,5 +1,7 @@
 # GW FinTech Bootcamp: AdditionalResources
 
+## Internal Resources
+
 ## Visual Studio Code
 
 [Documentation for Visual Studio Code](https://code.visualstudio.com/docs/?dv=win)
