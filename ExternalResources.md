@@ -162,6 +162,12 @@
 
 - [ECON 252 (2011) - Lecture 15 - Forward and Futures Markets | Open Yale Courses](https://oyc.yale.edu/economics/econ-252-11/lecture-15)
 
+### Financial Facts & Tips
+
+- [Continuous Compounding](https://www.investopedia.com/terms/c/continuouscompounding.asp)
+
+- [Average Annual Return for the S&P 500](https://www.investopedia.com/ask/answers/042415/what-average-annual-return-sp-500.asp)
+
 ### Cryptocurrency
 
 - [Cryptocurrency Basics](https://www.coindesk.com/learn)
