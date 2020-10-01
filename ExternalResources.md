@@ -78,6 +78,22 @@
 
 - [Formatted Output](https://www.python-course.eu/python3_formatted_output.php)
 
+### Pandas
+
+- [Pandas Home Page](https://pandas.pydata.org/)
+
+- [Pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html)
+
+- [Pandas Tutorial](https://www.tutorialspoint.com/python_pandas/index.htm)
+
+- [Pandas API Reference](https://pandas.pydata.org/pandas-docs/stable/reference/index.html)
+
+- [Pandas - DataFrame Reference](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
+
+- [Pandas - Selecting columns based on dtype](https://pandas.pydata.org/docs/user_guide/basics.html#selecting-columns-based-on-dtype)
+
+- [Pandas Source Code](https://github.com/pandas-dev/pandas)
+
 ### Visual Studio Code
 
 - [Documentation for Visual Studio Code](https://code.visualstudio.com/docs/?dv=win)
