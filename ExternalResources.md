@@ -1,3 +1,13 @@
+# TODO
+
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html
+
+http://www.tylervigen.com/spurious-correlations
+
+https://pandas.pydata.org/pandas-docs/version/0.22.0/generated/pandas.read_csv.html
+
+Files/image.png
+
 # GW FinTech Bootcamp: External Resources
 
 ## Programming
