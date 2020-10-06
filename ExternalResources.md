@@ -10,6 +10,21 @@ Files/image.png
 
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
 
+
+
+# TODO Pandas cheat sheet:
+
+Limit output for large data
+
+pd.set_option('display.max_rows', 500)
+
+
+
+
+
+
+
+
 # GW FinTech Bootcamp: External Resources
 
 ## Programming
