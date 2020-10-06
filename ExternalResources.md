@@ -8,6 +8,8 @@ https://pandas.pydata.org/pandas-docs/version/0.22.0/generated/pandas.read_csv.h
 
 Files/image.png
 
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
+
 # GW FinTech Bootcamp: External Resources
 
 ## Programming
