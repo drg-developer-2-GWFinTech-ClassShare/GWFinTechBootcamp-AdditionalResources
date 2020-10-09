@@ -1,5 +1,3 @@
-# TODO
-- Cheat sheets (including external)
-- Formula sheet
-    - inclue images in Files
-    - include basic interpretation (higher means x, lower means y)
+# GW FinTech Bootcamp - AdditionalResources
+
+Additional resources are provided for the GW FinTech class.
