@@ -10,6 +10,16 @@ Files/image.png
 
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
 
+https://seaborn.pydata.org/generated/seaborn.heatmap.html
+
+https://matplotlib.org/contents.html
+
+
+[How to calculate the covariance between AAPL & TSLA stock returns in Python?](https://www.youtube.com/watch?v=FjmcUESDCik)
+
+http://www.tylervigen.com/spurious-correlations
+
+
 
 
 # TODO Pandas cheat sheet:
@@ -18,8 +28,11 @@ Limit output for large data
 
 pd.set_option('display.max_rows', 500)
 
+# TODO Jupyter: Install PDF export capability
 
+https://miktex.org/download
 
+    (launches from here: https://nbconvert.readthedocs.io/en/latest/install.html#installing-tex)
 
 
 
