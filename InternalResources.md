@@ -19,3 +19,5 @@
 [10/1/2020 Review Session](https://zoom.us/rec/share/54cgzVR16Ut5ugGtcsiteRuQ_PPdQP8dEcvgEHecXeYQBwh0-iSwn_QcVV4leuIZ.jEkUOiqtfj9wQ8F0?startTime=1601587239000)
 
 [10/6/2020 Study Group](https://drive.google.com/drive/folders/1j_VC818RJK3AMJW2D3K2k-pcj5XMmyaD?usp=sharing)
+
+[10/8/2020 Study Group](https://drive.google.com/drive/folders/17G87kqtfh_HhZeY9vR4YwuSCospWReCJ?usp=sharing)
