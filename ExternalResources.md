@@ -22,6 +22,16 @@ http://www.tylervigen.com/spurious-correlations
 
 
 
+https://youtu.be/0QX1EHV2Ml8
+
+https://youtu.be/B168aNJYywc
+
+https://youtu.be/k4YAvyudUvE
+
+https://youtu.be/FPqXPkQkMP0
+
+
+
 # TODO Pandas cheat sheet:
 
 Limit output for large data
