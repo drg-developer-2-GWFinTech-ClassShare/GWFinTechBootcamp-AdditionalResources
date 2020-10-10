@@ -1,3 +1,11 @@
+# TODO
+
+Re-index all class resources and instructions inside the class repository.
+- https://github.com/coding-boot-camp/GWU-ARL-FIN-PT-09-2020-U-C/blob/master/04-Pandas/Classwork/Supplemental/StudentGuide.md
+- https://github.com/coding-boot-camp/GWU-ARL-FIN-PT-09-2020-U-C/blob/master/04-Pandas/Classwork/Supplemental/StudentGuide.md
+
+
+
 # GW FinTech Bootcamp: Internal Resources
 
 ## Class Admin Resources

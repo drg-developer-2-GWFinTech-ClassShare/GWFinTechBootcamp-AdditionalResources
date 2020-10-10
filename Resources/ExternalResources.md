@@ -32,6 +32,16 @@ https://youtu.be/FPqXPkQkMP0
 
 
 
+
+
+
+https://www.postman.com/
+
+https://app.alpaca.markets/
+
+TODO ingest all links from browser if not already
+
+
 # TODO Pandas cheat sheet:
 
 Limit output for large data
