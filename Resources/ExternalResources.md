@@ -42,6 +42,11 @@ https://app.alpaca.markets/
 TODO ingest all links from browser if not already
 
 
+https://www.w3schools.com/python/python_tuples.asp
+
+
+
+
 # TODO Pandas cheat sheet:
 
 Limit output for large data
