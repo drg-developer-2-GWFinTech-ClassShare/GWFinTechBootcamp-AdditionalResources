@@ -45,6 +45,16 @@ TODO ingest all links from browser if not already
 https://www.w3schools.com/python/python_tuples.asp
 
 
+# Databases
+[Overview of GET and POST](https://www.w3schools.com/tags/ref_httpmethods.asp)
+
+
+
+
+# File Types
+[Comparison of JSON vs CSV](https://www.educba.com/json-vs-csv/)
+
+
 
 
 # TODO Pandas cheat sheet:
@@ -258,3 +268,37 @@ https://miktex.org/download
 ### Online Research
 
 - [Top Ten Ways to Search More Effectively on Google](https://www.informit.com/articles/article.aspx?p=1315437)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# TODO
+
+https://youtu.be/0QX1EHV2Ml8
+
+https://youtu.be/B168aNJYywc
+
+https://youtu.be/k4YAvyudUvE
+
+https://youtu.be/FPqXPkQkMP0
+
+https://docs.python.org/3/library/os.html
+
+[Provide a path to the .env file in load_dotenv(dotenv_path=env_path)](https://pypi.org/project/python-dotenv/)
+
+[Alpaca API Reference??](https://github.com/alpacahq/alpaca-trade-api-python)
+
+https://alpaca.markets/docs/api-documentation/how-to/market-data/
+
+https://alpaca.markets/docs/api-documentation/api-v2/market-data/bars/
+

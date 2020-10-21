@@ -140,3 +140,91 @@ FinViz?
 [Day 2 Activities](https://github.com/coding-boot-camp/GWU-ARL-FIN-PT-09-2020-U-C/tree/master/05-APIs/2/Activities)
 
 [Day 3 Activities](https://github.com/coding-boot-camp/GWU-ARL-FIN-PT-09-2020-U-C/tree/master/05-APIs/3/Activities)
+
+
+
+
+
+TODO
+
+gropu study: https://drive.google.com/drive/folders/17G87kqtfh_HhZeY9vR4YwuSCospWReCJ?usp=sharing
+
+gropu study: https://drive.google.com/drive/folders/1j_VC818RJK3AMJW2D3K2k-pcj5XMmyaD?usp=sharing
+
+[Review Session 10/15/2020](https://zoom.us/rec/share/Vrz71okl5utsefNKSjn5OgZsFKWfN4mMHeKsKcORKoaJGy1fXljKsCKWovTlHPBj.IHe1MbeeBBMhCMvQ?startTime=1602799281000)
+
+##TODO instructions for downloading custom stocks
+[Yahoo Finance](http://finance.yahoo.com/)
+[Google Finance/Sheets](https://github.com/coding-boot-camp/GWU-ARL-FIN-PT-09-2020-U-C/blob/master/04-Pandas/Classwork/Supplemental/googlefinance_guide.md)
+
+
+[Committing Changes in Git and Pushing to a GitHub Repository](https://www.youtube.com/watch?v=ruieT3Nkg2M&list=PLl789HTTyISr5YhYE06TtTXd-Eevh4NE9&index=15&t=235s)
+
+
+[Federal Reserve models used to predict bank losses](https://www.federalreserve.gov/publications/files/2019-march-supervisory-stress-test-methodology.pdf)
+
+
+
+[House price Prediction with Zillow Economics Dataset](https://towardsdatascience.com/house-price-prediction-with-zillow-economics-dataset-18709abff896)
+
+[Applications of Monte Carlo Simulation in marketing analytics](https://link.springer.com/article/10.1057/dddmp.2011.25#:~:text=The%20technique%20of%20Monte%20Carlo,measurement%20and%20customer%20service%20management)
+
+[Difference Between Histogram & Density Plot](https://clauswilke.com/dataviz/histograms-density-plots.html)
+
+
+# TODO Document python space rules, and newline rules.
+## assignment requires newline, perinthetic does not.
+
+# TODO Document all the python string formatting techniques
+## "{:,}".format()  // rounding too?
+## f""
+## "" % ()
+
+
+
+
+
+
+[Group study 10/18](https://drive.google.com/drive/folders/1DFdoEXwZg-6dhXeraxt-ip7vcUb0ihet?usp=sharing)
+
+# TODO request access to all
+
+
+[?](https://github.com/coding-boot-camp/GWU-ARL-FIN-PT-09-2020-U-C/blob/master/06-PyViz/Classwork/Supplemental/PyVizInstallationGuide.md)
+
+[?](https://hvplot.holoviz.org/)
+
+[?](https://bokeh.org/)
+
+# already have this linked?
+https://coding-bootcamp-fintech-prework.readthedocs-hosted.com/en/latest/
+
+
+# TODO global git ignore
+echo "**/.ipynb_checkpoints/" >>~/.gitignore
+git config --global core.excludesfile ~/.gitignore
+
+
+# Troubleshooting
+## To handle cloning repositories with large files
+brew install git-lfs
+[](https://docs.github.com/en/free-pro-team@latest/github/managing-large-files/installing-git-large-file-storage)
+
+
+# PyViz
+conda activate pyvizenv
+## TODO document environemnts...can you have more than one at same time??
+## Manage in VSCode runtime.
+## Manage in vscode runtime for jupyter notebooks.
+## Python debugging in vscode
+## Make a startup script for the jupyter lab runtime.
+
+# Getenv way to ingest env vars
+## NOTE: YOU MUST USE SINGLE QUOTES inside .env!!!!
+
+
+
+
+
+
+

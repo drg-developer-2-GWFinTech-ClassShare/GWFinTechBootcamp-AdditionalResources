@@ -34,3 +34,5 @@ Re-index all class resources and instructions inside the class repository.
 [10/6/2020 Study Group](https://drive.google.com/drive/folders/1j_VC818RJK3AMJW2D3K2k-pcj5XMmyaD?usp=sharing)
 
 [10/11/2020 Study Group](https://drive.google.com/drive/folders/1aKO5t7dtrKrM3-CWPlyIZNjicx1bhBsF?usp=sharing)
+
+[10/13/2020 Study Group](https://drive.google.com/drive/folders/1OarDJbtwDh8ak47rAA1fII1XaThRKH10?usp=sharing)
