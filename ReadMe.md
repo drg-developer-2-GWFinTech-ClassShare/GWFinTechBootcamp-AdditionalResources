@@ -212,19 +212,62 @@ brew install git-lfs
 
 
 # PyViz
-conda activate pyvizenv
-## TODO document environemnts...can you have more than one at same time??
+## need to run `conda activate pyvizenv`
+## TODO Document/link to the API
+### [](https://pyviz.org/tools.html)
+### [](https://hvplot.holoviz.org/user_guide/Customization.html)
+### [hvplot]()
+### [plotly express]()
+
+# TODO document python environemnts...can you have more than one at same time??
 ## Manage in VSCode runtime.
 ## Manage in vscode runtime for jupyter notebooks.
 ## Python debugging in vscode
 ## Make a startup script for the jupyter lab runtime.
+## Alternative launch method via anaconda GUI -> jupyter lab, cmd, etc.
 
 # Getenv way to ingest env vars
 ## NOTE: YOU MUST USE SINGLE QUOTES inside .env!!!!
 
 
 
+# DataFrame
+## Building
+## Slicing
+### Multi-slice syntax data.loc["title1", "title2"]  -> What does this do?
+#### data["title1"] vs data.loc["title1"]
+#### data["title1", "title2"] vs data.loc["title1", "title2"]
+#### data[["title1", "title2"]] vs data.loc[["title1", "title2"]]
+## Grouping
+#### Multiple groupings: groupby([foreclosures.index.year, "municipality"])
+## Sorting (sort_index, sort_values)
+
+
+[Group study 10/20/2020](https://drive.google.com/drive/folders/1N1qEn--ytqOrbG50sQ1m1sZDx3tD7gVG?usp=sharing)
+
+
+[](https://plotly.com/python/plotly-express/#visualize-distributions)
+
+[Geographic Data — hvPlot 0.6.0 documentation](https://hvplot.holoviz.org/user_guide/Geographic_Data.html)
+
+
+# Cheat sheet: how to do sqrt and other mathemeactla fuucntions
+
+# Cheat sheet Windows: Ctrl+N new explorer window 
 
 
 
+Unit 6: PyViz
+Helpful Links
+The Form of Facts and Figures: Design Patterns for Interactive Information Visualization by Christian Behrens - https://christianbehrens.com/portfolio/project/foff
 
+hvPlot User Guide: https://hvplot.pyviz.org/user_guide/index.html
+
+PyViz Panel Reference Gallery: http://panel.pyviz.org/reference/index.html
+
+Plotly Express gallery: https://plot.ly/python/plotly-express/
+
+Plotly Express reference documentation: https://www.plotly.express/plotly_express/
+
+
+[Configuring Git Large File Storage](https://docs.github.com/en/free-pro-team@latest/github/managing-large-files/configuring-git-large-file-storage)
