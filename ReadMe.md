@@ -271,3 +271,14 @@ Plotly Express reference documentation: https://www.plotly.express/plotly_expres
 
 
 [Configuring Git Large File Storage](https://docs.github.com/en/free-pro-team@latest/github/managing-large-files/configuring-git-large-file-storage)
+
+[Configuring Console2 with Git Bash or Cygwin]()
+
+pd.date_range()
+
+
+# python () vs \ for multi-line code
+
+
+[](https://youtu.be/7ESK5SaP-bc)
+
