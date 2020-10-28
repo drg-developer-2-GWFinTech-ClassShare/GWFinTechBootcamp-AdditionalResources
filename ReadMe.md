@@ -282,3 +282,76 @@ pd.date_range()
 
 [](https://youtu.be/7ESK5SaP-bc)
 
+
+
+
+
+https://hvplot.holoviz.org/user_guide/Geographic_Data.html
+
+https://youtu.be/7ESK5SaP-bc
+
+https://gapminders.pyviz.demo.anaconda.com/gapminders
+
+https://nyc-taxi.pyviz.demo.anaconda.com/dashboard
+
+
+
+# Tablow or Tabflow
+
+https://towardsdatascience.com/tabpy-combining-python-and-tableau-511b10da8175?gi=5143394b3469#:~:text=%20Using%20TabPy%20%201%20Step%201%20Importing,Create%20a%20calculated%20field.%20%20...%20More%20
+
+https://tableaumagic.com/tableau-and-python-an-introduction/
+
+
+
+# TODO iPyViz??
+
+
+https://gapminders.pyviz.demo.anaconda.com/gapminders
+
+https://nyc-taxi.pyviz.demo.anaconda.com/dashboard
+
+
+
+
+# TODO signup process for mapbox key step by step instructions
+
+# TODO explain python environments, anaconda/conda integration etc.
+
+
+https://gapminders.pyviz.demo.anaconda.com/gapminders
+
+https://nyc-taxi.pyviz.demo.anaconda.com/dashboard
+
+if youre having issues on mac with postgresql and pgadmin just use these two commands “brew install postgres” and “brew install pgadmin4" after you install both do “brew services start postgres” (-Josh)
+
+https://www.w3schools.com/sql/default.asp
+
+https://www.tutorialspoint.com/sql/index.htm
+
+# full update instructions for: conda, anaconda, pip.
+
+https://spark.apache.org/docs/latest/sql-ref-datatypes.html
+
+
+
+# Document all plot types:
+df.plot(kind="bar)
+df.hvplot.bar
+px.bar  (plotly.express)
+
+
+[10/27/20 - GIT Primer + Organization](https://zoom.us/rec/play/4XeKMhJKWBpBgDJwYNkyebzIkH-LyccSClEbiSxiIZCxifzzSSu0ghI123Gn5oqLpyKJlj82aDnoV193.W9asQjMXQMt_AKAM?autoplay=true&startTime=1603803318000)
+
+
+
+
+
+https://github.com/coding-boot-camp/GWU-ARL-FIN-PT-09-2020-U-C/blob/master/07-SQL/Classwork/Supplemental/InstallationGuides/pgAdmin_and_Postgres_for_Windows.md
+
+https://github.com/coding-boot-camp/GWU-ARL-FIN-PT-09-2020-U-C/blob/master/07-SQL/Classwork/Supplemental/InstallationGuides/pgAdmin_and_Postgres_for_Mac.md
+
+Joshua Jaggat @channel if youre having issues on mac with postgresql and pgadmin just use these two commands “brew install postgres” and “brew install pgadmin4" after you install both do “brew services start postgres”
+
+Dr. Henry Tennant Hello class... here's an excellent resources for strengthening your panda knowledge base...  (1) Data Analysis with Pandas by Stefanie Molin and (2) Python for Data Analysis: Data Wrangling with Pandas, NumPy and IPython by Wes McKinney and (3) Data Science Projects with Python:  A case study approach to successful data science projects using Python, pandas and scikit-learn by Stephen Klosterman
+
