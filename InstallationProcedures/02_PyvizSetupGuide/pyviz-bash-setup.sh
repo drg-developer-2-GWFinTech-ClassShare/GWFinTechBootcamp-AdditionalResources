@@ -4,8 +4,16 @@
 # Update
 
 # Create `pyvizenv` environment
-conda create -y -n pyvizenv python=3.7 anaconda
+conda create -y -n pyvizenv python=3.8 anaconda
 conda activate pyvizenv
+
+
+# Critical
+conda install -y ipykernel
+python -m ipykernel install --user --name pyvizenv
+
+
+
 
 # Install dotenv
 pip install -y python-dotenv
