@@ -25,10 +25,11 @@ sudo systemctl enable snapd.apparmor
 sudo systemctl start snapd.apparmor
 
 
-## Install Atom (instructions from https://snapcraft.io/install/atom/opensuse#install)
-
+## Install Atom
 sudo snap install atom --classic
 
 
+## Install VSCode
+sudo snap install code --classic
 
 

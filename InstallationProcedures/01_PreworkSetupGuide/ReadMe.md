@@ -53,3 +53,13 @@ The following video links are referenced from the Python instructions:
 [Post-Install Steps - Mac](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1c0d69d6-523c-4275-86a5-ab7a011f370a)
 
 The `conda-bash-setup.sh` script has been tested under Git Bash on Windows, and has not been tested but should run in Terminal on Mac.
+
+
+
+
+
+
+#TODO move
+https://en.opensuse.org/images/1/17/Zypper-cheat-sheet-1.pdf
+
+
