@@ -335,6 +335,23 @@ https://spark.apache.org/docs/latest/sql-ref-datatypes.html
 
 
 
+# How to run sql files on cmdline (pgadmin, mysql, oracle others)
+
+https://stackoverflow.com/questions/9736085/run-a-postgresql-sql-file-using-command-line-arguments
+
+https://docs.oracle.com/cd/B25329_01/doc/appdev.102/b25108/xedev_sqlplus.htm
+
+https://www.sqlshack.com/working-sql-server-command-line-sqlcmd/
+
+https://tecadmin.net/run-sql-text-file-on-mysql-command-prompt/
+
+
+## import csv into sql in a .sql file:
+\COPY <table name> FROM 'location + file_name' DELIMITER ',' CSV HEADER;
+for example
+\COPY table1 FROM ‘my mbp\documents\hello.csv’ DELIMITER ',' CSV HEADER;
+
+
 # Document all plot types:
 df.plot(kind="bar)
 df.hvplot.bar
@@ -354,4 +371,233 @@ https://github.com/coding-boot-camp/GWU-ARL-FIN-PT-09-2020-U-C/blob/master/07-SQ
 Joshua Jaggat @channel if youre having issues on mac with postgresql and pgadmin just use these two commands “brew install postgres” and “brew install pgadmin4" after you install both do “brew services start postgres”
 
 Dr. Henry Tennant Hello class... here's an excellent resources for strengthening your panda knowledge base...  (1) Data Analysis with Pandas by Stefanie Molin and (2) Python for Data Analysis: Data Wrangling with Pandas, NumPy and IPython by Wes McKinney and (3) Data Science Projects with Python:  A case study approach to successful data science projects using Python, pandas and scikit-learn by Stephen Klosterman
+
+
+
+# ???
+
+\COPY <table name> FROM 'location + file_name' DELIMITER ',' CSV HEADER;
+
+
+
+[Group Study - 10/27/2020?](https://drive.google.com/drive/folders/1eXIgnsmHpJ_BI1l4BSto66caRx8ka7iy?usp=sharing)
+[Group Study - 10/29/2020](https://drive.google.com/drive/folders/1zwPtWYMBlr169aQZ1mO2e6uxwfDSXVhp?usp=sharing)
+
+
+https://stackoverflow.com/questions/7948494/whats-the-difference-between-a-python-module-and-a-python-package
+
+
+# TODO Sync all links with link tree in browser.
+
+
+
+## SQL
+[Quick Database Diagrams](https://app.quickdatabasediagrams.com/#/)
+
+
+https://www.visual-paradigm.com/support/documents/vpuserguide/3563/3564/85378_conceptual,l.html
+
+
+## More database stuff
+[Quick Database Diagrams](https://app.quickdatabasediagrams.com/#/)
+[documentation](https://www.visual-paradigm.com/support/documents/vpuserguide/3563/3564/85378_conceptual,l.html)
+
+
+# TODO Ingest all links from the project 8 instructions.
+
+
+# TODO Include pictures of start menu icon configuration.
+
+
+
+
+[Group Study 11/3/2020 Part 1](https://drive.google.com/drive/folders/1HAfnTK3jfPPpuWI7NHu0qlR_NWno9Sr5?usp=sharing)
+
+[Group Study 11/3/2020 Part 2](https://drive.google.com/drive/folders/1p6-SaMPij-MnMDKYjilTRuQZ6bXCop4n?usp=sharing)
+
+
+
+
+[](https://panel.holoviz.org/user_guide/Interact.html)
+
+
+[Python Panel](https://panel.holoviz.org/#:~:text=Panel%20is%20an%20open-source%20Python%20library%20that%20lets,user-defined%20widgets%20to%20plots%2C%20images%2C%20tables%2C%20or%20text.)
+
+[SQL Review Session 11/05/20 - SQL Part 1](https://zoom.us/rec/play/MJTAMAsHg7RkiaIbqwWGymNAduF0cszgfDe2V9cuvqiz8OQTqlT75YIWf5mWGcVBmwXlTomg6-2o_9Wp.1ZxYbv4vCABut7Zl?autoplay=true&startTime=1604616393000)
+
+
+[Group Study - 11/5/2020](https://drive.google.com/drive/folders/1kaM1pjifEe8Hh-c5S9u5zmc1O17UaVVy?usp=sharing)
+
+
+TODO ingest all documenation templates from GW
+
+
+
+
+[](https://catalog.data.gov/dataset?res_format=CSV&q=restaurants&sort=score+desc%2C+name+asc&tags=restaurant)
+
+[](https://data.world/codefordc/restaurant-openings)
+
+
+
+
+
+https://stackoverflow.com/questions/38987/how-do-i-merge-two-dictionaries-in-a-single-expression-in-python-taking-union-o
+
+
+TODO setup KDiff3: https://www.fosshub.com/KDiff3.html#:~:text=KDiff3%20is%20a%20free%2C%20open%20source%20and%20cross-platform,Windows%20Explorer%3B%20it%20can%20print%20the%20differences%2C%20etc.
+
+
+https://www.geeksforgeeks.org/select-rows-columns-by-name-or-index-in-pandas-dataframe-using-loc-iloc/
+
+[Python Function Documentation Standard - Docstrings](https://realpython.com/documenting-python-code/)
+
+[Parsing Date Strings](https://medium.com/better-programming/how-to-work-with-dates-in-python-dafa47d5cb3e)
+
+[Date parsing library 'dateparser'](https://dateparser.readthedocs.io/en/latest/#)
+
+[Excel find lat/lon from address string using Google](https://www.adventuresincre.com/auto-populate-latitude-longitude-excel/)
+
+[](https://datatofish.com/string-to-integer-dataframe/)
+
+
+[Serializing Dataframes](https://pandas.pydata.org/pandas-docs/dev/reference/api/pandas.DataFrame.to_pickle.html)
+
+
+
+
+https://queirozf.com/entries/pandas-dataframe-examples-column-operations
+
+https://stackoverflow.com/questions/53217607/how-do-i-operate-on-a-dataframe-with-a-series-for-every-column
+
+https://chrisalbon.com/python/data_wrangling/pandas_apply_operations_to_dataframes/
+
+
+# Get lat/lon for list of addresses (or school names)
+https://geopandas.org/
+https://www.mapdevelopers.com/batch_geocode_tool.php
+
+
+crisp-drm
+
+
+
+# Python time duration parsing
+
+## Recommended solution
+
+[](https://pypi.org/project/pytimeparse/)
+
+# Alternatives
+- [](https://pendulum.eustace.io/docs/#parsing)
+- [](https://docs.python.org/3/library/datetime.html)
+- [](https://www.orekit.org/static/architecture/time.html)
+
+# NEEDED:
+npm install dotenv
+
+
+
+https://pythonbasics.org/tkinter-checkbox/
+
+
+[HVPlot Customization](https://hvplot.holoviz.org/user_guide/Customization.html)
+
+
+
+[SQL Training Course](https://www.udemy.com/course/the-complete-sql-masterclass-for-data-analytics/?couponCode=NOVXVI20)
+
+
+
+Swarup Sahu Shift+Tab will let you see all the in built function parameters:
+https://www.youtube.com/watch?v=TgqMK1SG7XI
+
+
+Shift+Tab in Jupyter Lab: Shows function documentation.
+
+
+[Review Session with Swarup 11/14/20 - SQL Part 2](https://zoom.us/rec/play/vn7amvIPAndiCzaNmg9yhnIk3s4A-H3doS5gk7nwRKE0QfnHzHIHmAXpITWLPdqYxVCTZ72m1RhyhFtv.3JyrmTP_QJoTnzHN?startTime=1605359269000&_x_zm_rtaid=tKXRtYzzSGmrdmqtahoRbQ.1605573306768.c61349fef9042df693e6c03d5de57109&_x_zm_rhtaid=412)
+
+
+[StatsModels Seasonal Decompose Function](https://www.statsmodels.org/stable/generated/statsmodels.tsa.seasonal.seasonal_decompose.html)
+
+
+
+# Machine Learning: Time Series
+[Hodrick-Prescott (HP) Filter](https://www.investopedia.com/terms/h/hpfilter.asp)
+
+## Notes on the Class Presentation
+
+Correlation: How correlated is today with the past
+
+Autocorrelation: How correlated is today with all the possible lagged data? (?)
+
+
+# Random
+
+[Cookies](https://www.youtube.com/watch?v=HFyaW50GFOs)
+
+
+
+
+
+# ?? (ingest this message and images from Slack random 11/17/2020.)
+Swarup Sahu Hi everyone,
+Some of you might be seeing an odd error in some of you files whereby you see something along the following:
+version https://git-lfs.github.com/spec/v1
+oid sha256:8d67928172c22992bac4f9849c6b97c0e7a57c117933ad87096bfe36ef2ef999
+The reason why you are seeing this is because your git lfs was not installed correctly in your initial system setup. To resolve you can follow something suggestions made by my peers in different classes. Delete your current repo, install git lfs, and then re -clone seems to be the approach to correct this. I am also going to create a new channel - channel 09 - strictly for git issues. If you have any git issues moving forward, please post there!  (edited) 
+
+
+
+
+# Install for SQL+dataframe interface:
+
+conda activate pyvizenv
+conda install -y psycopg2
+
+conda list psycopg2
+
+
+# 
+
+Link to original video on setting up git: https://01classactivities.slack.com/archives/C01CD2UU334/p1603808252014500
+
+
+[11/17/2020 Study Group - SQL Homework & Troubleshooting](https://drive.google.com/drive/folders/1XW3vW5Ro0XjWqKPkY-ohM-YupuBq6cip?usp=sharing)
+
+
+
+
+
+https://www.devdungeon.com/content/python-import-syspath-and-pythonpath-tutorial
+
+
+
+
+Assignment Due Dates
+
+07-SQL, Nov. 20
+10-Times Series Analysis Nov. 30
+11-Classification Dec. 7
+12-Natural Language Processing Dec. 14
+13-AWS-Cloud Dec. 21
+14-Deep Learning Jan. 4
+15-Algorithmic Trading Jan. 11
+Project 2: Jan. 27
+18-Blockchain Building Blocks Feb. 3
+19-Blockchain with Python Feb. 10
+20-Smart Contracts with Solidity Feb. 20
+21-Advance Solidity Feb. 27
+22-Enabling DeFi With Blockchain Mar. 6*
+Project 3 Mar. 13
+
+
+[installatiomn instructios](https://github.com/coding-boot-camp/GWU-ARL-FIN-PT-09-2020-U-C/blob/master/11-Classification/Classwork/Supplemental/Machine_Learning_Env_Setup_Guide.md)
+
+
+
+
+
+
 

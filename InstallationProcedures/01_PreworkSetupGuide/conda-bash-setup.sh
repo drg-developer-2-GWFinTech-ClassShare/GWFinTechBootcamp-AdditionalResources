@@ -13,3 +13,8 @@ conda init bash
 conda list | grep numpy
 conda list | grep pandas
 conda list | grep matplotlib
+
+
+
+TODO MOVE export CODE=/c/Code
+export GWCODE=/c/Code/Education/GWFinTech2020
