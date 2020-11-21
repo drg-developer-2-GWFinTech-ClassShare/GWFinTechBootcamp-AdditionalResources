@@ -507,7 +507,7 @@ https://pythonbasics.org/tkinter-checkbox/
 
 [SQL Training Course](https://www.udemy.com/course/the-complete-sql-masterclass-for-data-analytics/?couponCode=NOVXVI20)
 
-
+[Blockchain/Cryptocurrency Training Course](udemy ...  Rawad's suggestion)
 
 Swarup Sahu Shift+Tab will let you see all the in built function parameters:
 https://www.youtube.com/watch?v=TgqMK1SG7XI
@@ -575,6 +575,11 @@ https://www.devdungeon.com/content/python-import-syspath-and-pythonpath-tutorial
 
 
 
+
+
+
+
+
 Assignment Due Dates
 
 07-SQL, Nov. 20
@@ -593,7 +598,96 @@ Project 2: Jan. 27
 Project 3 Mar. 13
 
 
+
+
+
+
+
+
+
+
+
+
+
 [installatiomn instructios](https://github.com/coding-boot-camp/GWU-ARL-FIN-PT-09-2020-U-C/blob/master/11-Classification/Classwork/Supplemental/Machine_Learning_Env_Setup_Guide.md)
+
+
+[?](https://people.duke.edu/~rnau/arimrule.htm)
+
+
+
+# setup arch for the time series stuff.....
+conda activate pyvizenv
+pip install arch
+
+
+[](https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.adfuller.html)
+
+
+# Python Pandas
+
+- How to slice data, foreach use case:
+	- df[["column1", "column2"]]
+	- df.loc[]
+	- df.iloc[]
+
+- How to group data
+	- .groupby() . <list of applicable functions>
+
+
+
+
+# Cheat sheets - linear regression - TODO get this validated with the TA's and instructor.
+
+- LinearRegression.score: model score
+- r2 = residual squared [0, 1]. Best >0.9
+- mean squared error: Measure of error. Relative
+- RMS error: Relative to data [0, 2 ??] 
+- STD: Standard deviation
+
+(Swarup Sahu) R^2 is basically a statistical measure of how close the data are to the fitted regression line. It is also known as the coefficient of determination, or the coefficient of multiple determination for multiple regression. 0% indicates that the model explains none of the variability of the response data around its mean. 100% indicates that the model explains all the variability of the response data around its mean. In general, the higher the R-squared, the better the model fits your data (doesn't always mean its a good thing). Thats probably the most important indicator.
+
+Joseph McHugh Having a square as opposed to the absolute value function gives a nice continuous and differentiable function (absolute value is not differentiable at 0) - which makes it the natural choice, especially in the context of estimation and regression analysis.
+
+
+
+[](https://statlect.com/fundamentals-of-statistics/R-squared-of-a-linear-regression#:~:text=Definition%20The%20R%20squared%20of%20the%20linear%20regression%2C,residuals%20is%2C%20the%20smaller%20the%20R%20squared%20is.)
+
+
+
+
+
+
+# TODO 10.3 Variance vs. Bias Diagram
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Setup
+pip install arch
+#pip install librosa
+
+# TODO Setup: solution for problem with `import arch` "Could not load shared object file: llvmlite.dll"
+
+
+[Review Session 11/14/20 - SQL Part 2](https://zoom.us/rec/share/ah5Ko1flgEAfa_TxSZAx8ZK6szgUTuUznsYtjLTZIfkTlJs89VA6Ad6B3c8dtC3H.o9VBdw2XzKygGRMV?startTime=1605359269000)
+
+
+
+
+
+
 
 
 
