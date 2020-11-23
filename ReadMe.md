@@ -685,13 +685,57 @@ pip install arch
 
 
 
+# Various unsorted resources that may be useful or not
+[?](https://stats.stackexchange.com/questions/163129/augumented-dickey-fuller-unit-root-test-stata)
+[](https://arch.readthedocs.io/en/latest/univariate/forecasting.html#arch.univariate.base.ARCHModelForecast)
+[](https://docs.python.org/3/library/datetime.html#datetime.date.month)
+[](https://plotly.com/python/box-plots/)
+[](https://www.postgresql.org/docs/9.1/datatype-datetime.html)
+[](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.html)
 
 
 
+# Document all of the functions we have ever used, with links and explanations that are clipped from the website.
+
+
+# Debugging
+## Error on `import arch` - "Could not load shared object file: llvmlite.dll"
+
+```bash
+conda activate pyvizenv
+pip uninstall arch
+pip install arch
+```
 
 
 
+# (lettered list)
 
+<ol type="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+
+[](https://investexcel.net/garch-excel/)
+
+# Investing Resources
+[Stocktwits](stocktwits.com)
+
+
+
+# Resources
+## Python
+[Best IDE's for Python](https://www.techradar.com/uk/best/best-ide-for-python)
+
+
+
+# Machine Learning
+## Supplementary Reading
+[Ten Applications of AI to Fintech](https://towardsdatascience.com/ten-applications-of-ai-to-fintech-22d626c2fdac)
+[Intro to types of classification algorithms in Machine Learning](https://medium.com/sifium/machine-learning-types-of-classification-9497bd4f2e14)
+[FICO® Falcon® Platform: Cognitive Fraud Analytics Fraud-focused machine learning.](https://www.fico.com/en/latest-thinking/product-sheet/fico-falcon-platform-cognitive-fraud-analytics-fraud-focused-machine-learning)
 
 
 

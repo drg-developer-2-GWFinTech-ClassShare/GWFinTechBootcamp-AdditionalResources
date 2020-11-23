@@ -65,3 +65,52 @@ pip list | grep alpaca-trade-api
 
 # TODO Install alpaca api stuff also (from pdf file).
 # TODO Verify that ALL examples run correctly using one master environment.
+
+
+
+
+
+
+# TODO Machine Learning Environment Setup Guide
+
+## Imbalanced-learn
+
+### Prerequisites
+pip install -U scikit-learn
+pip install -U imbalanced-learn
+
+### Install
+conda install -y -c conda-forge imbalanced-learn
+
+### Verify
+conda list imbalanced-learn
+
+## PyDotPlus
+### Install GraphViz on Windows
+if Windows then;
+    wget https://www.graphviz.org/download/
+    export PATH="$PATH:/c/Program Files (x86)/GraphViz2.38"
+    export PATH="$PATH:/c/Program Files (x86)/GraphViz2.38/bint"
+fi
+
+### Install
+conda install -y python-graphviz
+conda install -y graphviz
+conda install -y -c conda-forge pydotplus
+
+### Verify
+conda list graphviz
+conda list pydotplus
+
+
+
+
+
+
+
+
+
+
+
+
+
