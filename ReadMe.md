@@ -738,4 +738,33 @@ pip install arch
 [FICO® Falcon® Platform: Cognitive Fraud Analytics Fraud-focused machine learning.](https://www.fico.com/en/latest-thinking/product-sheet/fico-falcon-platform-cognitive-fraud-analytics-fraud-focused-machine-learning)
 
 
+# SQL
+[SQL Primary Key](https://www.w3resource.com/sql/creating-and-maintaining-tables/primary-key.php)
+
+
+
+
+
+# ML
+## F1 Score (from Joseph McHugh)
+
+Here is how F1 score is calculated
+it is technically a measure of accuracy, but instead of taking the total number of true positives and dividing by the total number of samples, it performs this convoluted calculation above
+7:47 PM
+why not just use accuracy?
+7:48 PM
+because oftentimes you’ll find your data isnt balanced, if you had a 50/50 split of diabetes and non-diabetes, the simple way of calculating it would be appropriate
+
+[Precision/Recall Tradeoff](https://medium.com/analytics-vidhya/precision-recall-tradeoff-79e892d43134)
+
+[Beyond Accuracy: Precision and Recall](https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c)
+
+
+
+
+
+
+
+
+
 
