@@ -764,6 +764,110 @@ because oftentimes you’ll find your data isnt balanced, if you had a 50/50 spl
 
 
 
+[The way we train AI is fundamentally flawed](https://www.technologyreview.com/2020/11/18/1012234/training-machine-learning-broken-real-world-heath-nlp-computer-vision/?mod=djemTECH)
+
+
+
+
+https://www.techbeamers.com/python-float-range/
+
+
+https://stackoverflow.com/questions/3459098/create-list-of-single-item-repeated-n-times
+
+
+
+
+https://stackoverflow.com/questions/58292901/add-a-1-d-numpy-array-to-dataframe-as-a-row
+
+
+
+# TODO Side-by-side plots for pandas, plotly, and hvplot for each plot type including line, multi-line, area, bar, multi-bar, etc. The multi-bar requires multi-level grouping which does not work on plotly (uses color= instead).
+
+# TODO How to use barh() plots - non-intuitive
+https://www.w3resource.com/pandas/dataframe/dataframe-plot-barh.php#:~:text=The%20plot.barh%20()%20function%20is%20used%20to%20make,A%20bar%20plot%20shows%20comparisons%20among%20discrete%20categories.
+
+
+
+[Study Group 11/24/2020 - Time Series Analysis Homework - Part 2](https://drive.google.com/drive/folders/1GxQ0xQTlRoOfl9A9kA0mV2m8-bkFcovb?usp=sharing)
+
+
+
+
+
+# What the .ravel() function does
+[!image](ravel-function.png)
+[opening the blackbox with SHAP](https://shap.readthedocs.io/en/latest/)
+
+[opening the blackbox with LIME - KDD2016 paper 573](https://www.youtube.com/watch?v=hUnRCxnydCc&feature=emb_title&ab_channel=KDD2016video)
+
+
+
+
+https://dash.plotly.com/
+
+
+
+
+https://investexcel.net/garch-excel/
+
+
+
+
+
+
+
+
+
+conda install -y intake
+conda install -y intake-parquet
+
+
+# Troubleshooting: HVPlot plots suddenly stop rendering.
+
+
+? https://stackoverflow.com/questions/45308714/holoview-with-bokeh-does-not-show-plots
+
+
+http://holoviews.org/user_guide/Deploying_Bokeh_Apps.html
+
+
+
+https://towardsdatascience.com/https-medium-com-dashingaditya-rakhecha-understanding-learning-rate-dd5da26bb6de
+
+
+
+# Python
+## Apply operation toall items in a list:
+x = [fcn(i) for i in data]
+first_result = [word.lower() for word in words if word.lower() not in sw]
+
+
+# TODO Basic notes/summary of information in the slides
+## Unit 12 Day 1
+- <all other terms>
+- Lemmatize: Different forms of the same essential word.
+- N-grams
+	# [mono] grams
+	Counter(processed)
+	# N-grams
+	Counter(ngrams(processed, n=2))
+
+
+
+
+[Study Group 12/01/2020 - Classification Homework Unit 11](https://drive.google.com/drive/folders/1X1UxzTE3-r-gEooPaVfdkbOje14DyFP8?usp=sharing)
+
+[](https://stackoverflow.com/questions/37101114/what-to-download-in-order-to-make-nltk-tokenize-word-tokenize-work)
+
+
+
+
+
+# TODO Download and archive all study group videos.
+
+
+
+
 
 
 
