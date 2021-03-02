@@ -580,29 +580,11 @@ https://www.devdungeon.com/content/python-import-syspath-and-pythonpath-tutorial
 
 
 
-Assignment Due Dates
-
-07-SQL, Nov. 20
-10-Times Series Analysis Nov. 30
-11-Classification Dec. 7
-12-Natural Language Processing Dec. 14
-13-AWS-Cloud Dec. 21
-14-Deep Learning Jan. 4
-15-Algorithmic Trading Jan. 11
-Project 2: Jan. 27
-18-Blockchain Building Blocks Feb. 3
-19-Blockchain with Python Feb. 10
-20-Smart Contracts with Solidity Feb. 20
-21-Advance Solidity Feb. 27
-22-Enabling DeFi With Blockchain Mar. 6*
-Project 3 Mar. 13
 
 
 
-
-
-
-
+# Time sieres notes
+AIC, BIC lower is better; 400 is good; <2000 is ok.
 
 
 
@@ -845,7 +827,7 @@ first_result = [word.lower() for word in words if word.lower() not in sw]
 # TODO Basic notes/summary of information in the slides
 ## Unit 12 Day 1
 - <all other terms>
-- Lemmatize: Different forms of the same essential word.
+- Lemmatize: "converts everything to present-singular"; Different forms of the same essential word.
 - N-grams
 	# [mono] grams
 	Counter(processed)
@@ -866,6 +848,1347 @@ first_result = [word.lower() for word in words if word.lower() not in sw]
 # TODO Download and archive all study group videos.
 
 
+
+https://holoviz.org/tutorial/index.html
+
+
+# TODO In the time series analysis homework, what is the difference between boolean and numerical classification in this model framework?
+
+
+
+
+# Installation scripts - NLP (unit 12 supplemental)
+conda activate pyvizenv
+## Natural Language Toolkit (NLTK)
+python -c "import nltk;nltk.download('all')"
+## Wordcloud Library
+conda install -c conda-forge wordcloud
+conda list wordcloud
+
+
+pip install newsapi-python==0.2.5
+conda list newsapi-python
+pip install --upgrade "ibm-watson>=3.0.3"
+
+conda list ibm-watson
+
+conda install -c conda-forge spacy
+python -m spacy download en_core_web_sm
+
+conda list spacy
+
+pip install alpaca-trade-api
+
+conda list | grep alpaca-trade-api
+
+pip install python-dotenv
+conda list | grep python-dotenv
+
+
+
+
+
+# dataframe .loc[] stuff
+https://www.w3resource.com/pandas/dataframe/dataframe-loc.php#:~:text=DataFrame%20-%20loc%20property%20The%20loc%20property%20is,may%20also%20be%20used%20with%20a%20boolean%20array.
+
+
+
+
+
+
+
+
+
+# Classification notes
+balanced_accuracy_score: Accuracy score weighted to eliminate bias from imbalanced data. Higher is better.
+
+## 1. Can you explain over- and under-sampling?
+## 2. Can you explain what the LogisticRegression model is doing to fit the data?
+
+
+
+
+
+
+
+[?](https://stackoverflow.com/a/33348841/2580891)
+
+
+
+
+
+
+Assignment Due Dates
+
+07-SQL, Nov. 20
+10-Times Series Analysis Dec. 7
+11-Classification Dec. 7
+
+12-Natural Language Processing Dec. 14
+13-AWS-Cloud Dec. 21
+14-Deep Learning Jan. 4
+15-Algorithmic Trading Jan. 11
+Project 2: Jan. 27
+18-Blockchain Building Blocks Feb. 3
+19-Blockchain with Python Feb. 10
+20-Smart Contracts with Solidity Feb. 20
+21-Advance Solidity Feb. 27
+22-Enabling DeFi With Blockchain Mar. 6*
+Project 3 Mar. 13
+
+
+
+
+
+[](https://medium.com/better-programming/a-visual-guide-to-set-comparisons-in-python-6ab7edb9ec41)
+
+
+[Enumerations](https://www.tutorialspoint.com/enum-in-python#:~:text=Enum%20in%20Python%201%20The%20enums%20are%20evaluatable,type%20%28%29%20we%20can%20check%20the%20enum%20types.)
+
+
+
+
+
+# installation (correction: in code instead)
+import nltk
+nltk.download("wordnet")
+
+
+
+[Milad Nazar Hello, Here is our video recording from last night… some corrections are made on Homework Unit 10 & 11](https://drive.google.com/drive/folders/1bQy6iDRWClJTVMmC3UjzJjXzovXIh9ya?usp=sharing)
+
+
+
+
+
+
+# Time Series Analysis - Regression Types
+quantile regressions, stepwise, ridge, lasso, logitstic
+
+
+
+
+https://stackoverflow.com/questions/13703720/converting-between-datetime-timestamp-and-datetime64
+
+
+
+
+# Installation to enable DataFrame.to_markdown()
+conda install -y tabulate
+
+
+
+# Python introspection on an object to get fields and functions (source: stackoverflow):
+[f for f in dir(y) if not callable(getattr(y,f))]
+[f for f in dir(y) if callable(getattr(y,f))]
+
+
+[Simple guide to confusion matrix terminology](https://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/)
+
+
+
+[Regex Cheat Sheet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet)
+
+[GPT-3](https://www.forbes.com/sites/bernardmarr/2020/10/05/what-is-gpt-3-and-why-is-it-revolutionizing-artificial-intelligence/?sh=522f8c1f481a)
+
+[](https://cloud.ibm.com/catalog/services/tone-analyzer)
+
+# Installation
+Class we will be registering with IBM Tone Analyser to conduct the final exercise of todays class, I will walk you through the creation, but you will need the following link to create your own tone_key and tone_url https://cloud.ibm.com/catalog/services/tone-analyzer
+
+
+
+
+
+# ML Libraries
+[Boto3 - AWS Python SDK](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+[sklearn]
+[sagemaker]
+
+
+
+# The profobuf recordIO format, is a method to serialize structured data (similar to JSON), to allow different applications to communicate with each other or for storing data.
+[the protobuf recordIO format](https://docs.aws.amazon.com/sagemaker/latest/dg/cdf-training.html#td-serialization)
+
+
+
+pip install imblearn
+
+
+
+
+
+https://stackoverflow.com/questions/2349991/how-to-import-other-python-files
+
+
+http://witkowskibartosz.com/blog/pythonstartup_what_it_is_and_how_to_use_it.html
+
+
+https://stackoverflow.com/questions/5837259/installing-pythonstartup-file
+
+
+
+
+[Git LFS](https://01classactivities.slack.com/archives/C019ACWC0BG/p1605654125165600)
+
+[Git Configuration Video](https://01classactivities.slack.com/archives/C01CD2UU334/p1603808252014500)
+
+
+Quantopian.com
+https://en.wikipedia.org/wiki/Quantopian
+
+
+
+
+
+Financial soundness indicators (TODO)
+
+
+
+
+
+
+
+# Install https://cloud.ibm.com/catalog/services/tone-analyzer
+
+
+[Study Group 12/3 - Some corrections are made on Homework Unit 10 & 11](https://drive.google.com/drive/folders/1bQy6iDRWClJTVMmC3UjzJjXzovXIh9ya?usp=sharing)
+
+
+https://stackoverflow.com/questions/11479392/what-does-a-for-loop-within-a-list-do-in-python
+
+
+https://seaborn.pydata.org/examples/many_pairwise_correlations.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Sample code (from Swarup)
+
+# Getting all documents ids under the money-fx and money-supply categories
+categories = ["money-fx", "money-supply"]
+all_docs_id = reuters.fileids()
+money_news_ids = [
+    doc
+    for doc in all_docs_id
+    if categories[0] in reuters.categories(doc)
+    or categories[1] in reuters.categories(doc)
+]
+print(f"Total number of news articles about money: {len(money_news_ids)}")
+
+for doc in all_docs_id # all_doc_ids had been created in the line above; it going through each doc within the list (recall this from our for loops portion of the course)
+
+if categories[0] in reuters.categories(doc) #If it is in the topic of "money-fx" or "money-supply" keep the document (recall this from our booleans lesson)
+or categories[1] in reuters.categories(doc)
+
+doc # This basically is saying return all such docs (think of this as a "return")
+
+
+
+
+https://stackoverflow.com/questions/25973581/how-do-i-format-axis-number-format-to-thousands-with-a-comma-in-matplotlib
+
+
+
+
+https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf
+
+
+https://towardsdatascience.com/the-mathematics-behind-principal-component-analysis-fff2d7f4b643
+
+
+
+# Format commas in a matplotlib plot:
+import matplotlib
+from matplotlib.ticker import FuncFormatter
+
+index = ['Firefox', 'Chrome', 'Safari', 'IE10', 'Konqueror']
+df = pd.DataFrame({'http_status': [200, 200, 404, 404, 301],
+                  'response_time': [0.04, 0.02, 0.07, 0.08, 1.0]},
+                  index=index)
+plt = (10000 * df).plot(kind="line", legend=False)
+plt.get_yaxis().set_major_formatter(
+    FuncFormatter(lambda x, p: format(int(x), ',')))
+plt
+
+
+
+
+# Format commas in an hvplot:
+df['commas'] = df['no_commas'].apply(lambda x: format(x, '8,d')) 
+
+
+
+
+# Python trading bot platforms
+
+## Shrimpy
+[Shrimpy.io](https://developers.shrimpy.io/)
+[How to Make a Crypto Trading Bot Using Python](https://blog.shrimpy.io/blog/how-to-make-a-crypto-trading-bot-using-python)
+
+##Google Cloud
+[Google Cloud](https://cloud.google.com/)
+[How to Build an Algorithmic Trading Bot in 7 Steps](https://medium.com/automation-generation/algorithmic-trading-automated-in-python-with-alpaca-google-cloud-and-daily-email-notifications-422b7c6b7c53)
+
+##
+https://hedgetrade.com/how-to-code-a-trading-bot/
+
+##
+https://www.activestate.com/blog/how-to-build-an-algorithmic-trading-bot/
+
+##
+https://www.codementor.io/@powderblock/algo-trading-101-building-your-first-stock-trading-bot-in-python-13fwsexn5f
+
+##
+https://towardsdatascience.com/algorithmic-trading-bot-python-ab8f42c37145
+
+##
+https://codeburst.io/how-to-make-your-own-trading-bot-83b5c6e35036
+
+##
+https://hackernoon.com/easily-build-a-stock-trading-bot-using-broker-api-6bfbdc8d48c9
+
+##
+[Comparing Python platforms for automated trading](https://randlow.github.io/posts/trading/trading-introduction/)
+[Easily Build a Stock Trading Bot Using Broker API](https://hackernoon.com/easily-build-a-stock-trading-bot-using-broker-api-6bfbdc8d48c9)
+
+##
+https://www.backtrader.com/
+
+##
+[](https://polygon.io/stocks?gclid=Cj0KCQiA8dH-BRD_ARIsAC24umZWJGg8WUdsGI5mJfEuxGJebc_EuWE1-Y0zyRwjrDxVs0KYONWDJoQaAvLEEALw_wcB)
+
+##
+[](https://www.quantiacs.com/)
+##
+[](https://www.quantconnect.com/)
+
+
+# AWS Users & Groups
+https://docs.aws.amazon.com/IAM/latest/UserGuide/access.html
+https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_examples.html
+https://docs.aws.amazon.com/IAM/latest/UserGuide/id_groups_manage_add-remove-users.html
+
+
+
+
+# ML: Draw a diagram of this: What are the differences between: Estimator, Classifier, Regression, etc.
+
+
+
+
+
+
+
+# Technologies Stack
+
+
+## Python
+## Python visualization
+## Database
+## AWS Sagemaker
+
+
+
+## Machine Learning
+
+### Distributed Machine Learning Frameworks
+
+https://dask.org/
+
+
+
+
+
+
+
+# Install imbalanced-learn
+pip install -U imbalanced-learn
+conda install -c conda-forge imbalanced-learn
+
+# NLP installation stuff. NOTE: You have to use the base system Python3 environment, EVEN IF these installation steps are completed using pyvizenv. No reason whatsoever for this to be the case.
+conda install -c conda-forge wordcloud
+conda list wordcloud
+pip install newsapi-python==0.2.5
+conda list newsapi-python
+pip install --upgrade "ibm-watson>=3.0.3"
+conda list ibm-watson
+conda install -c conda-forge spacy
+python -m spacy download en_core_web_sm
+conda list spacy
+pip install alpaca-trade-api
+conda list | grep alpaca-trade-api
+pip install python-dotenv
+conda list | grep python-dotenv
+
+
+
+
+
+
+
+
+
+
+# Python - what happens with using the same variable for processing and assignment?
+text = fcn(text)
+text = [(lambda x: x**2)(x) for x in text]
+
+
+
+# Key Notes from Each Class
+## NLP
+- Lemmatization: The process of transforming a word into it's core meaning. Examples include:
+	- Plural into singular
+	- Alternative versions (there their they're) into core version (there)  [better eample]
+
+
+
+# Python?
+## NLP
+### Counter(list): Counts the number of duplicate items in a list.
+### ngrams(text, n): Expands all combinations of n-grams in a collection.
+
+
+# AWS
+## AWS Free Teir
+https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc
+## S3 Bucket Python Interface (boto3)
+https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-example-download-file.html
+
+
+
+
+# Python
+[Python Join Two Lists](https://www.w3schools.com/python/gloss_python_join_lists.asp)
+
+## Numpy
+[Python Numpy Tutorial](https://cs231n.github.io/python-numpy-tutorial/#:~:text=A%20numpy%20array%20is%20a,the%20array%20along%20each%20dimension.)
+
+## Object-Oriented Programming
+[Understanding Class Inheritance in Python 3](https://www.digitalocean.com/community/tutorials/understanding-class-inheritance-in-python-3)
+[Polymorphism in Python](https://www.geeksforgeeks.org/polymorphism-in-python/)
+[Abstract Base Classes](https://docs.python.org/3/library/abc.html)
+
+# Machine learning
+## Regression
+[Machine Learning - Polynomial Regression](https://www.w3schools.com/python/python_ml_polynomial_regression.asp)
+
+
+
+
+[Study Session 12/13/2020 - NLP Homework](https://drive.google.com/drive/folders/18JVAos1Tvzgiu4xEPzhC3SJ-AsHl2xWG?usp=sharing)
+
+
+
+
+https://www.datacamp.com/community/tutorials/wordcloud-python
+
+
+# Best Coding Practices
+## Camel Case
+
+
+
+https://docs.aws.amazon.com/lex/latest/dg/book-trip-detail-flow.html
+
+https://docs.aws.amazon.com/lex/latest/dg/examples.html
+
+
+
+
+https://stackoverflow.com/questions/1186789/what-is-the-best-way-to-call-a-script-from-another-script
+
+https://stackoverflow.com/questions/67631/how-to-import-a-module-given-the-full-path
+
+
+# Pro Tips
+- Append a semicolon (;) to the end of a plot and it will avoid printing system output describing the plot object.
+
+
+
+https://www.codesofinterest.com/2019/12/installing-tensorflow-2-on-anaconda.html
+
+
+
+
+https://banfield.pet/2n2w23q
+https://banfield.pet/2ltTlmE
+
+
+
+
+
+
+[Group Study 12/15/2020](https://drive.google.com/drive/folders/10kQ7UDZsCFt5zAFjZlhdkbAqMzPjBGcG?usp=sharing)
+
+
+
+[](https://teachablemachine.withgoogle.com/v1/)
+
+
+
+[Neural Network Demo](http://playground.tensorflow.org/)
+
+
+[](https://www.datacamp.com/community/tutorials/markdown-in-jupyter-notebook)
+
+
+# Installation - Unit 14 Neural Networks
+## Install TensorFlow
+pip install --upgrade tensorflow  # Does not work??
+conda install -y tensorflow
+## Verify
+python -c "import tensorflow as tf;print(tf.__version__)"
+## Keras is included with TensorFlow 2.0, so run the following commnand to verify that the package is available:
+python -c "import tensorflow as tf;print(tf.keras.__version__)"
+## Possible additions: https://www.codesofinterest.com/2019/12/installing-tensorflow-2-on-anaconda.html
+conda install -y tensorflow
+conda install -y tensorflow-gpu
+conda list tensorboard
+conda list tensorflow
+conda list tensorflow-base
+conda list tensorflow-estimator
+conda list tensorflow-gpu
+
+
+
+[BuiltWith - Determine what technologies a website is built with.](https://builtwith.com/)
+
+[Powerful Open Source ReadMe.md Template](https://github.com/othneildrew/Best-README-Template)
+
+
+# Notes from Unit 14 - Day 1
+- Good rule of thumb: Use a triple the amount of hidden nodes as the number of inputs.
+- Neural network: 
+- Activation function: 
+- Use the following activation functions for a neural network:
+	- reloid: Initial input
+	- sigmoid: Generating output
+- Designing a good neural network is part science part art.
+- Ways to increase accuracy of a neural network:
+	- Add more hidden nodes (make the network deeper)
+	- Add more [iterations?]
+- One-hot encoding: Transforms classification data into numerical data.
+- Standardization: De-meaning the variables so each variable has a mean of 0 and variance of 1. This results in the variables being approximately the same effective "size" from the perspective of the model.
+
+- Dimensionality reduction (DCA or PCA??) can be used to reduce the complexity of the problem to make it run faster.
+
+
+# Notes from Unit 14 - Day 2
+- Activation function: 
+- Loss function: ? computing accuracy?
+- Optimizer: Updates the weights to help the loss function minimize the error.
+- Deep neural networks
+- Possible to tell that the model is overfitted when: Test accuracy is much lower than training accuracy
+- Code:
+
+	validation_split: Reserves fraction of input data for validation. Alternative to train_test_split.
+
+- NN optimization
+	- Loss function rate of decrease should be high, to indicate that the loss function is working well.
+- Reduce overfitting by:
+	- Using PCA to reduce number of features.
+	- Adding more nodes to each layer.
+	- Adding more layers may cause overfitting.
+	- Dropout layer can help with overfitting.
+	- Embedding layer ...
+
+[Deep Neural Network Drawing Demo](https://quickdraw.withgoogle.com/)
+
+This article helps explain which activation functions to use for your deep learning algorithms a little bit more in detail: [Activation Functions in Neural Networks](https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0)
+
+[](https://colab.research.google.com/notebooks/intro.ipynb#recent=true)
+
+
+
+[Google Colaboratory - Cloud-based Jupyter notebooks with access to Google's deep learning neural network.](https://colab.research.google.com/notebooks/intro.ipynb)
+	!pip install hvplot
+	!pip install -U bokeh
+
+[SaturnCloud]()
+
+
+[Sample Tensorflow Notebooks](https://github.com/tensorflow/docs/tree/master/site/en/tutorials/keras)
+
+[Kaggle - Practice ML Skills and Share with Potential Employers](https://www.kaggle.com/)
+
+
+
+
+# Class Notes - 12/21/2020 - 14-3
+- ANN vs. RNN
+	- ANN has no memory of events?
+	- ANN is linear.
+	- RNN has a feedback loop.
+- LSTM (Long short-term memory)
+	- Applies weights to the sequences of data which will be rememebered more than others; whereas RNN forgets things in sequence.
+- Example code:
+	- Model setup
+		- embedding_size: Best to be a multiple of 8.
+	- binary_crossentropy loss function: Used to account for binary output values.
+	- batch_size = Speed with which the training will operate.
+	- epochs = Number of iterations.
+	- Encoding layer: Provides interpretation of encoded numerical data.
+- LOC curve
+- ROC curve
+- How to interpret the accuracy of different models.
+- Time series modeling
+	- Dropout enforces random dropping of neurons per run.
+	- return_sequence: Tells the model how to reconnect itself?
+	- shuffle=False: Ensures input data order is retained.
+
+
+
+
+
+[Neural Network Text Demo](https://transformer.huggingface.co/)
+[Recurrent Neural Networks cheatsheet](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks)
+
+
+
+
+
+
+
+
+https://machinelearningmastery.com/loss-and-loss-functions-for-training-deep-learning-neural-networks/
+
+https://machinelearningmastery.com/rectified-linear-activation-function-for-deep-learning-neural-networks/
+
+
+
+
+
+# Install python formatter in VSCode...
+https://dev.to/adamlombard/how-to-use-the-black-python-code-formatter-in-vscode-3lo0
+
+
+# Instructions for Debugging AWS Lambda (via the monitor -> ...console)
+
+
+
+
+ello, Here is the zoom link for our Group Study today around 630 https://us02web.zoom.us/j/87629639202?pwd=MWliTm9xRGdGdlJYWlFLVnE4L3I2Zz09
+10:28 PM
+Milad Nazar Hello, Here is the video recording from today. This includes troubleshooting on the Amazon Lex Robo Adviser https://drive.google.com/drive/folders/180TpIF1K7LV7wmyESLu93mIC_DDNiQcn?usp=sharing
+
+
+
+https://www-zdnet-com.cdn.ampproject.org/c/s/www.zdnet.com/google-amp/article/aws-says-very-very-sophisticated-practitioners-of-machine-learning-are-moving-to-sagemaker/
+
+
+
+https://www.investopedia.com/terms/s/sortinoratio.asp
+
+
+
+
+M
+Milad Nazar Hello, here is the link for our Group Study today around and between 6:30 to 7:00 https://us02web.zoom.us/j/86339303198?pwd=eS9Eb1FxS1NFbm5BclgzWmNVM21wQT09
+6:35 PM
+Milad Nazar https://us02web.zoom.us/j/86958718959?pwd=RmZjWWw1WHlLS0xBeWsxWndla0Irdz09
+
+
+
+
+
+
+
+
+https://coderzcolumn.com/tutorials/data-science/cufflinks-how-to-create-plotly-charts-from-pandas-dataframe-with-one-line-of-code
+
+
+https://stackoverflow.com/questions/43150211/python-bokeh-ohlc-plot-from-pandas-df
+
+
+https://www.youtube.com/watch?v=am0iMNa9-1M
+
+
+https://quant.stackexchange.com/questions/54471/converting-time-bars-to-tick-bars-or-volume-bars-in-python
+
+
+https://towardsdatascience.com/trading-toolbox-03-ohlc-charts-95b48bb9d748
+
+https://docs.bokeh.org/en/latest/docs/gallery/candlestick.html
+
+
+[??](https://www.youtube.com/watch?v=t-TmsV0hV8Y)
+
+
+
+
+
+
+
+Milad Nazar Hello, here is the recording from yesterday. It is covering Deep Learning, and Troubleshooting of Lambda Function https://drive.google.com/drive/folders/1q_hpyKfccq5I2NAXnNTHEay8Akt-3rmN?usp=sharing
+3:38 PM
+
+
+
+
+
+# Install unit 15
+pip install asyncio
+conda install -y -c conda-forge streamz
+pip list | grep asyncio
+conda list | grep streamz
+pip install ccxt
+pip list | grep ccxt
+
+
+
+# function to: Update Conda Environment
+conda deactivate
+conda update conda
+conda create -n algotrading python=3.7 anaconda
+conda activate algotrading
+pip install iexfinance
+conda install -c conda-forge streamz
+
+
+
+
+# Class 15-2 Notes
+- Signal generation should be separated from data analysis, so it may need to be updated separately.
+
+
+
+
+from joblib import dump, load
+joblib (dump(model, 'random_forest_model.joblib')
+- Train and re-deploy ML model
+
+
+
+https://www.kaggle.com/
+
+
+
+https://docs.soliditylang.org/en/v0.7.4/
+
+
+
+
+
+https://www.freecodecamp.org/
+
+
+https://www.dataquest.io/
+
+
+
+
+
+udemy (https://www.udemy.com/)
+
+Lynda (https://www.lynda.com/)
+
+linked learning (https://www.linkedlearning.org/ ?)
+
+
+
+https://en.wikipedia.org/wiki/Long-Term_Capital_Management
+
+
+
+
+https://towardsdatascience.com/an-algorithm-to-find-the-best-moving-average-for-stock-trading-1b024672299c
+
+
+
+
+
+
+https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw?cp=e30.&fbclid=IwAR3t9KhTnc-RP1FhTuPJT6t4SDsvczuj79OT-GAi54WHq69xli4Ai-zIbhY
+
+
+
+pip install tesseract
+pip install chatterbot
+
+
+
+
+https://towardsdatascience.com/how-to-create-a-chatbot-with-python-deep-learning-in-less-than-an-hour-56a063bdfc44
+
+https://towardsdatascience.com/using-python-and-robinhood-to-create-a-simple-buy-low-sell-high-trading-bot-13f94fe93960
+
+
+
+
+
+https://towardsdatascience.com/how-to-create-a-chatbot-with-python-deep-learning-in-less-than-an-hour-56a063bdfc44
+
+https://sourceforge.net/projects/xming/
+
+
+pip install chatterbot
+
+https://realpython.com/iterate-through-dictionary-python/#using-comprehensions
+
+
+
+https://www.tutorialspoint.com/amazon_web_services/index.htm
+
+
+
+
+
+
+
+
+https://stackoverflow.com/questions/35483328/how-do-i-set-up-jupyter-ipython-notebook-for-django
+
+
+https://docs.djangoproject.com/en/3.1/intro/tutorial01/
+
+
+
+
+Unit testing.
+
+
+https://gapminders.pyviz.demo.anaconda.com/gapminders
+
+
+
+
+# Configure format on save for Python files in VSCode
+1. editor.formatOnSave
+
+
+
+https://www.valentiam.com/newsandinsights/ebitda-multiples-by-industry
+
+http://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html
+
+
+
+pycharm & Jetbrains product suite. This is how you software engineer.
+
+
+http://www.py2exe.org/
+
+
+https://github.com/othneildrew/Best-README-Template
+
+
+
+
+# How to overlay two plots with vastly different scales.
+- https://cmdlinetips.com/2019/10/how-to-make-a-plot-with-two-different-y-axis-in-python-with-matplotlib/
+- https://pythondata.com/visualizing-data-overlaying-charts/
+
+
+
+
+# Website with plotly plots
+https://medium.com/analytics-vidhya/building-a-dashboard-app-using-plotlys-dash-a-complete-guide-from-beginner-to-pro-61e890bdc423
+
+https://github.com/plotly/dash
+
+
+
+
+https://www.investopedia.com/investing/basics-trading-stock-know-your-orders/
+
+
+# Sorting
+https://stackoverflow.com/questions/952914/how-to-make-a-flat-list-out-of-list-of-lists
+https://stackoverflow.com/questions/7301110/why-does-return-list-sort-return-none-not-the-list
+
+
+
+
+https://www.python-course.eu/python3_properties.php
+
+
+
+
+
+# https://treyhunner.com/2018/10/asterisks-in-python-what-they-are-and-how-to-use-them/ "The ** operator also has another side to it: we can use ** when defining a function to capture any keyword arguments given to the function into a dictionary"
+
+
+
+
+#https://realpython.com/python-testing/#choosing-a-test-runner
+
+#pytest
+
+
+
+
+
+
+
+https://towardsdatascience.com/sentiment-analysis-for-stock-price-prediction-in-python-bed40c65d178
+
+
+https://polygon.io/docs/getting-started
+
+
+
+
+
+https://stackoverflow.com/questions/2064202/private-members-in-python/42031894#42031894
+
+
+https://code.visualstudio.com/docs/editor/accessibility
+
+
+
+https://www.investopedia.com/terms/d/dutch_tulip_bulb_market_bubble.asp
+
+
+# Recommended Tools
+https://www.gitkraken
+PyCharm
+
+
+
+
+link? https://faucet.kovan.network/
+
+
+
+
+Installation Instructions
+https://download.mycrypto.com/
+
+
+
+https://tweetnacl.js.org/#/secretbox
+
+
+
+
+https://tweetnacl.js.org/#/secretbox
+
+https://andersbrownworth.com/blockchain/blockchain
+
+
+# Installation
+https://geth.ethereum.org/downloads/
+
+
+
+
+# VM Configuration
+?zypper upgrade?
+zypper install -y git python38-pip zip
+## Install and configure aws CLI: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
+## Install snapcraft
+sudo zypper addrepo --refresh https://download.opensuse.org/repositories/system:/snappy/openSUSE_Leap_15.2 snappy
+sudo zypper --gpg-auto-import-keys refresh
+sudo zypper dup --from snappy
+sudo zypper install snapd
+sudo systemctl enable --now snapd
+sudo systemctl enable --now snapd.apparmor  # For OpenSuse Tumbleweed only
+restart
+## Install Pycharm
+sudo snap install pycharm-community --classic
+## Install Pycharm without snapcraft
+#wget the tar file
+#extract and move to /usr/bin
+#ln -s /usr/bin/pycharm-community-2020.3.3/bin/pycharm.sh /usr/bin/pycharm-community-2020.3.3/bin/pycharm
+#echo 'export PATH=${PATH}:/usr/bin/pycharm-community-2020.3.3/bin'  >>~/.bashrc
+
+
+
+
+
+
+Class Notes 19-01
+=================
+* Web 3.0: Focus on the web framework.
+
+
+
+# Install libraries for unit 19
+pip install web3
+
+
+
+# Vim Usage
+## What is Vim?
+## Vim Usage
+“vim name_of_file.py”
+Press i to enter insert mode
+:w to write the file
+:q to exit vim
+
+
+
+
+# VM Configuration
+sudo ?yast? install -y kdiff3
+git config --global diff.tool kdiff3
+git config --global merge.tool kdiff3
+
+
+
+# Unit 19 Links
+[](https://walletgenerator.net/?currency=Testnet%20Bitcoin)
+[](https://bitcoinfaucet.uo1.net/send.php)
+[View transaction history](https://live.blockcypher.com/)
+[Send money to wallet](https://bitcoinfaucet.uo1.net/send.php)
+[](https://github.com/iancoleman/bip39/releases)
+[](https://iancoleman.io/bip39/)
+[eth faucet](https://faucet.dimensions.network/)
+
+# Unit 19 Additional Setup Instructions
+Hassan Naeem @channel please complete the following steps prior to class Monday:
+goto https://walletgenerator.net/?currency=Testnet%20Bitcoin and generate a wallet.
+take your public address key, should start with letter ‘m’ and private key and load into a notes file for saving
+goto https://bitcoinfaucet.uo1.net/send.php and enter your address that starts with ‘m’  into the address field and request .00092 BTC.
+Taking these steps should ensure that you have a funded account in preparation for class on Monday. Thank you! (edited) 
+
+pip install bit
+pip install pep517
+python -m pip install --upgrade pip
+python -m pip install --no-use-pep517 bcrypt
+python3 -m pip install coincurve
+
+
+
+
+# Unit 19-03 Notes
+* Only new UTXO's can be spent. Then they take a lot longer to validate. Then they can no longer be spent??
+* BTC UTXO's accounting mechanism is better than ETH's accounting mechanism because:
+** It is faster and takes fewer resources.
+** It supports multiple transaction outputs.
+
+
+
+
+# Python Environments
+Explain how `conda activate`, conda install, pip install, etc. work together. Venn diagram.
+
+
+
+
+
+# Python - getting runtime directories
+https://stackoverflow.com/questions/5137497/find-current-directory-and-files-directory
+
+
+
+#
+Notepad++
+PyCharm
+
+
+
+
+# Notes unit 20
+* Diagram or tabulate out the keys and networks i.e. if you make a key on the testnet does it apply on the real ETH network??? What are test coins???
+
+
+
+
+
+https://faucet.dimensions.network/
+
+
+# Unit 20 Links
+[Solidity]()
+[Metamask - Link between our browser and the network we are developing for - TODO Diagram this out.](https://metamask.io/)
+[]()
+[](https://www.trufflesuite.com/ganache)
+[Remix - online IDE and compilier for [dApps and] smart contracts](http://remix.ethereum.org/)
+[]()
+[](https://docs.soliditylang.org/en/v0.7.4/)
+[]()
+[HUGE collection of dApps for various use cases](https://www.stateofthedapps.com/)
+## Cool dApps in the ETH ecosystem
+[Nexo - Allows some kind of lending platform or something??](https://www.stateofthedapps.com/dapps/nexo)
+[High-yield crypto lending platform](https://blockfi.com/)
+## Cool dApps in the ETH ecosystem - Finance
+[PlotX]()
+	* Automated market making.
+[Plasma-Finance - Investing platform that executes trades and tracks P&L.]()
+[OctoFi](octo.fi)
+## Cool dApps in the ETH ecosystem - Storage
+[XCloud]()
+[OurBible]()
+[Akta]()
+[Genobank DNA Wallet]()
+[]()
+## Cool dApps in the ETH ecosystem - Gaming
+[Axiomfinity]()
+[]()
+[]()
+[]()
+[]()
+
+
+
+
+
+
+
+Unit 20 - Setup and Development Procedure
+* Local development environment makes it easier to develop smart contracts and dApps by using a local, offline blockchain (?)
+1. <procedure>
+2.
+3.
+
+
+
+Unit 20 Notes
+* Solidity
+** Solidity is the language of smart contracts.
+** Statically typed.
+** User pays amount of gas for instruction that gets executed by the EVM.
+** EVM = Ethereum virtual machine. All ETH nodes run this.
+* Technology stack (hardware -> software)
+* GETH = Full [implementation] written in Go.
+
+* Diagram
+** Gas
+** Addresses
+** Networks
+** Transactions
+** Nodes
+** Clients
+** Smart contracts
+** 
+
+
+
+[ ] TODO Build executive summary foreach class section. Brief, concise few sentences.
+[ ] TODO Build essential notes and diagrams foreach class section.
+
+
+
+
+
+
+
+
+
+# Unit 19 Setup Instructions
+
+## PHP
+
+[Installing PHP Version 7.3 for Windows](https://youtu.be/IvcZZaIEL_4)
+
+1. Install [XAMPP](https://www.apachefriends.org/index.html)
+
+2. Add to C:\xampp\php\php.ini:  extension=php_gmp.dll
+
+3. Add C:\xampp\php to PATH environment variable.
+
+
+## HD_Wallet
+
+1. Clone the repository.
+
+	```bash
+	cd ~/blockchain-tools
+	git clone https://github.com/dan-da/hd-wallet-derive
+	cd hd-wallet-derive
+	```
+
+2. Install hd-wallet.
+
+	```bash
+	curl https://getcomposer.org/installer -o installer.php
+	php installer.php
+	php composer.phar install
+	```
+
+3. Add ~/blockchain-tools/hd-wallet to the PATH environment variable.
+
+3. Verify.
+
+	```bash
+	hd-wallet-derive.php -g --key=xprv9tyUQV64JT5qs3RSTJkXCWKMyUgoQp7F3hA1xzG6ZGu6u6Q9VMNjGr67Lctvy5P8oyaYAL9CAWrUE9i6GoNMKUga5biW6Hx4tws2six3b9c --numderive=3 --preset=bitcoincore --cols=path,address --path-change
+	```
+
+## Python Tools
+
+conda activate pyvizenv
+pip install bit
+pip install web3
+
+
+## PHP extensions??
+brew install php php5-gmp php-mbstring php-mcrypt
+
+[](https://tweetnacl.js.org/#/secretbox)
+[](https://andersbrownworth.com/blockchain/blockchain)
+[](https://live.blockcypher.com/btc-testnet/address/mnLVoPaQNgk7HBGJGo6pCL3mgCYNvXPaHq/)
+[](https://bitcoinfaucet.uo1.net/send.php)
+
+
+[](http://remix.ethereum.org/)
+[](https://faucet.dimensions.network/)
+
+[](https://iancoleman.io/bip39/#english)
+
+[Training Certification for Solidity](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/)
+
+
+[??](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/math/SafeMath.sol)
+
+
+
+
+# TODO Expand this list
+# Here are the programs I use:
+
+1. Text files: [Notepad++](https://notepad-plus-plus.org/)
+
+2. Browsing code directories: [VSCode](https://code.visualstudio.com/) or [Atom](https://atom.io/)
+
+3. Developing Python code: [PyCharm](https://www.jetbrains.com/pycharm/)
+
+4. Comparing text files: [KDiff3](http://kdiff3.sourceforge.net/)
+
+
+
+# VIM Cheat Sheet
+https://images.app.goo.gl/MF8TP3adoehF7ZxUA
+https://i.imgur.com/YLInLlY.png
+
+
+# Unit 21-2
+
+[](https://www.cryptokitties.co/)
+
+[](eips.ethereum.org)
+
+[Official Ethereum Implementation](https://github.com/ethereum) - TODO Describe each repository.
+[Official Accepted ETH and Smartcontract API](??)
+
+?: import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20.sol";
+
+[...what is swap](https://support.blockchain.com/hc/en-us/articles/360026011331-What-is-Swap-#:~:text=Swap%20allows%20users%20to%20easily,%2C%20on%2Dchain%20trade%20settlement.)
+
+[Ethereum Faucet](faucet.kovan.network)
+
+
+# Unit 22 Notes
+
+## Solidity types/things/structure in a smart contract:
+type
+	mapping
+	string
+	uint
+	string memory
+	...
+struct
+class
+event
+function
+
+## ERC721 compliant non fungible token...
+...
+
+## Links
+
+[](https://ipfs.io/)
+[File pinning service for pinning/identifying files on IPFS.](https://pinata.cloud/)
+
+
+
+Solidity Data Types
+https://docs.soliditylang.org/en/v0.7.4/types.html#
+
+SOlidity other api notes
+https://docs.soliditylang.org/en/v0.7.4/
+
+Solidty data stroage
+https://www.blockchain-council.org/blockchain/how-to-store-data-on-ethereum-blockchain/
+
+
+
+# Unit 22-2
+
+## Data Storage Collections
+
+Local data...
+
+Events: Logging functionality within the Ethereum blockchain. https://docs.soliditylang.org/en/v0.5.3/contracts.html#events. Not accessible from contracts...
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+
+
+? https://www.eventbrite.com/e/fintec-fellowship-information-and-networking-day-find-tickets-142006512301?aff=affiliate1
+
+
+
+
+
+https://www.youtube.com/watch?v=vMlwQkp5Nv0&list=PLELt91oRXvY6TnRpHQACewBKBces_v8tc
+
+https://vomtom.at/blockchain-developer-training-salary-survey-2019-2020/
+
+
+
+https://nfthack.ethglobal.co/
+
+
+
+https://ethereum.org/en/developers/docs/apis/javascript/
+
+https://ethereum.stackexchange.com/questions/27166/how-to-connect-to-the-ropsten-test-net-using-web3-js
+
+https://ethereum.stackexchange.com/questions/80678/geth-v1-9-13-web3-exceptions-badfunctioncalloutput-could-not-decode-contract
+
+https://github.com/tthustla/efficient_frontier/blob/master/Efficient%20_Frontier_implementation.ipynb
+
+https://www.tutorialspoint.com/solidity/index.htm
+
+[Commenting Standards for Solidity; also Doxygen is included](https://jeancvllr.medium.com/solidity-tutorial-all-about-comments-bc31c729975a#:~:text=In%20Solidity,%20there%20are%20two%20main%20types%20of,by%20their%20different%20colours%20(green%20for%20regular%20comments,)
 
 
 
