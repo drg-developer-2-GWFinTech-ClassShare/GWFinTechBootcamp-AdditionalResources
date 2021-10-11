@@ -2192,6 +2192,323 @@ https://www.tutorialspoint.com/solidity/index.htm
 
 
 
+TODO Describe the EVM stack in more detail.
+
+
+https://stackoverflow.com/questions/6889747/is-python-interpreted-or-compiled-or-both
+
+https://www.codeooze.com/blockchain/solc-hello-world/#:~:text=The%20solc%20command%20line%20compiler%20is%20a%20C++,resources%20available%20covering%20Solidity,%20including%20the%20Solidity%20documentation.
+
+
+
+pip install keras
+pip install PyPortfolioOpt
+
+
+
+
+https://pyportfolioopt.readthedocs.io/en/latest/RiskModels.html#shrinkage-estimators
+https://reasonabledeviations.com/notes/papers/ledoit_wolf_covariance/
+
+
+
+
+https://github.com/coding-boot-camp/GWU-ARL-FIN-PT-09-2020-U-C/tree/master/22-DeFi/Homework/Instructions
+
+https://ethereum.stackexchange.com/questions/80678/geth-v1-9-13-web3-exceptions-badfunctioncalloutput-could-not-decode-contract
+
+
+
+
+
+# Employers
+https://www2.arccorp.com/
+https://www.ai.mil/Careers_User-Experience-Designer.html
+
+# Resources
+https://www.tutorialspoint.com/solidity/solidity_function_modifiers.htm
+https://www.today.com/video/digital-art-and-sports-highlights-generate-millions-in-sales-102980165595
+https://nfthack.ethglobal.co/
+https://vomtom.at/blockchain-developer-training-salary-survey-2019-2020/
+https://www.youtube.com/watch?v=vMlwQkp5Nv0&list=PLELt91oRXvY6TnRpHQACewBKBces_v8tc
+
+
+
+# Configuring Python system to run pypfopt efficient fronteir algorithm:
+conda activate pyvizenv
+pip install pandas-datareader
+pip install numpy --upgrade
+conda install -c conda-forge cvxopt
+
+
+
+
+
+evanwill/gitBash_windows.md
+
+I love this guide so much, I've been referring to it for years 😍
+
+I'd like to suggest adding jq which is a superb tool in many developers' belt these days. Basically all you have to do is:
+
+Download the latest Windows executable of your choice from https://github.com/stedolan/jq/releases
+Put it in your Git\mingw64\bin folder
+Rename to jq.exe
+
+
+
+
+https://realpython.com/python-formatted-output/#the-python-formatted-string-literal-f-string
+
+
+https://www.cnn.com/style/article/nft-digital-art-boom/index.html
+
+
+
+
+IPFS + Pinata workflow
+pinata.cloud
+https://cid.ipfs.io/
+ipfs:// <CID address>
+
+
+
+https://www.quanta.im/
+
+
+
+
+
+# Unit 22 Installation Instructions
+## truffle and openzeppelin
+npm install
+npm install -g truffle
+npm install @truffle/hdwallet-provider
+npm install @openzeppelin/contracts
+
+
+
+
+
+
+
+
+https://scrt.network/
+
+
+https://yahoo.github.io/hacktogether/
+
+
+
+[Ropsten Ethereum Faucet](https://faucet.ropsten.be/)
+
+https://mitcre.mit.edu/wp-content/uploads/2019/11/Tokenized-Security-Commercial-Real-Estate2.pdf
+
+
+
+infura.io/dashboard/ethereum
+https://infura.io/dashboard/ethereum/9f1a858ba1ef401c8facd60900897027/settings
+
+
+https://docs.soliditylang.org/en/v0.8.1/introduction-to-smart-contracts.html
+
+dapp.com
+
+
+
+https://ipfs.io/
+
+
+https://hoprnet.org/
+
+
+https://www.fool.com/millionacres/real-estate-market/real-estate-innovation/what-is-blockchain-real-estate/
+
+
+
+# Research into calling external code or web resources from Solidity
+https://ethereum.stackexchange.com/questions/2070/how-to-make-external-contract-function-calls-from-one-contract-to-another
+https://www.bing.com/search?q=yul+compiler&qs=n&form=QBRE&sp=-1&ghc=1&pq=yul+compile&sc=1-11&sk=&cvid=5707FBC5C946432AAF6FF6EAF6F7C049
+https://github.com/second-state/SOLL/blob/master/doc/guides/DevGuide.md
+https://pypi.org/project/py-solc-x/
+
+https://medium.com/coinmonks/how-to-develop-ethereum-contract-using-python-flask-9758fe65976e
+
+https://docs.soliditylang.org/en/develop/using-the-compiler.html
+
+https://www.bing.com/search?q=solidity+call+external+web+service&cvid=4708d975936d48889efb9993d279254e&pglt=43&FORM=ANNTA1&PC=DCTS
+
+https://ethereum.stackexchange.com/questions/78625/call-an-existing-python-code-inside-a-solidity-smart-contract
+
+https://docs.soliditylang.org/en/v0.8.1/yul.html#motivation-and-high-level-description
+
+
+
+
+https://pypi.org/project/ccxt/
+
+
+
+
+# List set of all skills, frameworks etc. learned throughout the course by category.
+
+
+
+
+
+https://otexts.com/fpp2/arima.html
+
+
+
+AR: Predicts based on tendancy of a stationary process to regress to previous past values.
+MA: Predicts based on tendancy of a stationary process to regress to previous past errors.
+I: Accounts for non-stationary drift.
+
+
+Variance vs. Bias diagram in the 10-3 slides #15.
+
+Suggestion: At the beginning of all slides referring to the ML breakdown, show the breakdown chart about ML -> Supervised/Unsupervised -> Regression/Classification etc. (already in place in some but not all slide decks)
+
+
+Quick lookup chart for accuracy vs precision vs recall and their equations. And specificity in 11-3.
+
+Classification report diagram on 11-1 slide 46.
+
+VADER quick lookup.
+
+AWS service quick lookup.
+
+Where does Deep Learning fit in with unsupervised models in the ML breakdown? Or is it AI?
+
+Blockchain pillars.
+
+Solidity variables that are always available (msg).
+
+
+Solidity cheat sheet for language and syntax and common needs.
+
+Common ERC standards quick reference.
+
+
+
+Recommendations
+* Include more Tableau practice as this is asked for in the industry.
+* Include more OO development as this is asked for in industry and differentiates someone from being a run-of-the-mill python script writer. Include this and unit testing and full stack dev in a more technical route.
+
+
+
+
+Hmmm, describe this wieird import scope stuff: https://stackoverflow.com/questions/11990556/how-to-make-global-imports-from-a-function
+
+
+
+
+
+https://stackoverflow.com/questions/7948494/whats-the-difference-between-a-python-module-and-a-python-package#:~:text=A%20package%20is%20a%20collection%20of%20Python%20modules%3A,happens%20to%20contain%20a%20bunch%20of%20Python%20scripts.
+
+
+
+
+https://www.techbeamers.com/python-format-string-list-dict/#format-lists-and-dictionaries
+
+
+Explain multi-index management much better.
+
+
+"EOF encountered" strange error usually implies missing closing perinthesis or bracket.
+
+
+Stack traces.
+
+
+
+Build up a set of resources for all data structures and algorithms into a collection of libraries ready to access. N-ary trees for example. Not in any standard library for common lanugages, for some reason. nodetrie looks like an option.
+
+
+
+
+
+https://modelpredict.com/importing-packages-in-jupyter-notebook/
+
+
+
+
+Read and summarize: https://docs.python.org/3/reference/import.html#namespace-packages
+
+
+Import Notes: Cannot use 'lib' need to use 'libs' for directory name; Use sys.path.append() to append the local path to parent directory; must reload kernel to successfully use changes to the imported file. Here is some sample code, and provide several examples, from python files as well as Jupyter: 
+# Custom library imports
+import sys
+sys.path.append("../../libs")
+# import strategytestingfunctions
+# from strategytestingfunctions import *
+# from strategytestingfunctions import *
+# from strategytestingfunctions import *
+# print(newfunction())
+
+from strategytestingfunctions import strategytestingfunctions
+
+nc = strategytestingfunctions()
+print(nc.newfunction2())
+# import ..lib.strategytestingfunctions as stf
+# from main.pricegetter.PriceGetter import PriceGetter
+# from ..lib.strategytestingfunctions import *
+# from lib.strategytestingfunctions import *
+# from lib.
+
+from strategytestingfunctions import *
+print(newfunction())
+
+
+
+
+
+
+
+
+
+https://www.techbeamers.com/python-format-string-list-dict/#format-lists-and-dictionaries
+
+
+[Pandas DataFrame Documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
+
+
+
+
+# Configuring a Local Python Package System
+https://pypi.org/project/devpi-server/
+
+
+# Study resources for technical interviews
+[That book I bought on amazon - Cracking the Coding Interview]()
+* Stuff in the python readiness document C:\Code\Education\CodingPractice\algorithms-and-data-structures\doc\*
+
+
+# Study resources for finance interviews
+
+
+
+
+
+https://lunarcrush.com/markets?rpp=50
+
+
+
+
+https://www.bing.com/search?q=sql+outer+join&cvid=b54e173130de442e970bd18e191cf93c&aqs=edge.0.0l7.1738j0j1&pglt=299&FORM=ANNTA1&PC=DCTS
+
+
+
+
+# Embed github code file in iframe:
+https://stackoverflow.com/a/52731071/15773007:
+ <iframe frameborder=0 style="min-width: 200px; width: 60%; height: 460px;" scrolling="no" seamless="seamless" srcdoc='<html><body><style type="text/css">.gist .gist-data { height: 400px; }</style><script src="https://gist.github.com/sundbry/55bb902b66a39c0ff83629d9a8015ca4.js"></script></body></html>'></iframe> 
+
+
+
+
+https://www.guru99.com/software-development-life-cycle-tutorial.html
+
+
 
 
 
